@@ -2,7 +2,7 @@
 - 👀 I’m interested in gaming,coding,and video making
 - 🌱 I’m currently learning javascript and html
 - 💞️ I’m looking to collaborate on idk
-- 📫 How to reach me? Send to goldplayz1211@gmai.com
+- 📫 How to reach me? Send to goldplayz1211@gmail.com
 
 <!---
 TheOnlyRich/TheOnlyRich is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
