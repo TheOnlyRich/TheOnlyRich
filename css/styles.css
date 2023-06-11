@@ -643,12 +643,12 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 800px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 800px;
   }
 }
 @media (min-width: 992px) {
@@ -11734,18 +11734,29 @@ html {
 }
 
 /* add background image */
-header::before {
+/* .container::before {
   content: "";
   background-image: url("../assets/bg.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   position: absolute;
-  height: 1150px;
+  height: 3000px;
   top:0px;
   left: 0px;
   right:0px;
   bottom: 0px;
   opacity: 0.5;
   z-index: -1;
+} */
+
+.mbg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, rgba(255,255,255, 0.3) 0%, rgba(255,255,255, 0.7) 75%, #fff 100%), url("../assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
