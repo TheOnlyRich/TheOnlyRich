@@ -11732,3 +11732,20 @@ html {
     left: -2vw;
   }
 }
+
+/* add background image */
+header::before {
+  content: "";
+  background-image: url("../assets/bg.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: absolute;
+  height: 1150px;
+  top:0px;
+  left: 0px;
+  right:0px;
+  bottom: 0px;
+  opacity: 0.5;
+  z-index: -1;
+}
