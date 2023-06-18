@@ -11774,7 +11774,7 @@ html {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -11795,3 +11795,44 @@ html {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+.icon_mc::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/mc.png") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+}
+.icon_yt::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/yt.png") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+}
+.icon_sh::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/scratch.ico") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+}
+.icon_fb::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/fb.png") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+}
